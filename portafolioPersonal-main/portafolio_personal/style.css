@@ -1,0 +1,960 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.containerNamePrincipal{
+    width: 100%;
+    height: 50px;background-color: rgba(0, 0, 0, 0.559);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    bottom: 900px;
+    z-index: 1;
+  
+}
+
+.containerNamePrincipal h1{
+    letter-spacing: 80px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+
+.container1{
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/portafolio_personal/public/img/keyboard-5017973_1920.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.container__interno{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+}
+
+.jhonatan{
+    object-fit: contain;
+    width: 50%;
+    height: 100%;
+    transition: 3.5s;
+    border-radius: 100px;
+}
+.title{
+    font-size: 350%;
+    font-family: sans-serif;
+    transition: 2s linear;
+    color: rgba(255, 255, 255, 0.795);
+}
+.parrafo_jhonatan{
+    font-size: 25px;
+    white-space: pre;
+    letter-spacing: 2.5px;
+    font-family: sans-serif;
+    transition: .3s linear;
+
+}
+
+
+.container__interno2{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 2%;
+    gap: 8%;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+/*OTRA SECCION*/
+
+.container2{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.containerHijo1{
+    width: 40%;
+    height: 100%;
+    background-image: url(/portafolio_personal/public/img/priscilla-du-preez-XkKCui44iM0-unsplash\ \(1\).jpg);
+    background-position: right center;
+
+    background-attachment: fixed;
+    border-radius: 20px;
+    border: 2px solid gray;
+
+}
+
+.overlay2{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title2{
+    font-size: 50px;
+    transition: 2s;
+}
+.listado{
+    width: 100%;
+    font-size: 20px;
+    transition: 2s;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 60px 60px 90px;
+}
+
+.overlay2:hover{
+    opacity: 1;
+    background-color: #00000083;
+    color: white;
+}
+
+.containerHijo2{
+    width: 40%;
+    height: 100%;
+    background-image: url(/portafolio_personal/public/img/programming-1873854_1920.png);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 2px solid gray;
+    background-attachment: fixed;
+
+   
+}
+
+.overlay3{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.overlay3:hover{
+    opacity: 1;
+    background-color: #00000083;
+    color: white;
+}
+
+
+.container3{
+    margin-top: 150px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+/*PRIMER CONTAINER*/
+.containerExperiencia{
+    width: 33%;
+    height: 100%;
+    background-image: url(/portafolio_personal/public/img/silhouette-4749232_1920.jpg);
+    background-position: right;
+    background-size: cover;
+    transition: 2s;
+    display: flex;
+    border: 4px solid black;
+
+
+}
+
+.containerExperiencia:hover{
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+
+.titleExperiencia{
+    font-size: 100px;
+    transform: rotateZ(-90deg);
+    align-self:center;
+    transition: 2s;
+
+}
+.vuelve1{
+    transform: translateX(0);
+    transition: 2s;
+}
+.overlayHijo1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 2s;
+    transform: translateX(-80vw);
+    background-color: #00000083;
+    padding: 10%;
+
+}
+
+.parrafoExperiencia{
+    font-size: 23px;
+    color: white;
+    transition: 2s;
+    line-height: 50px;
+    letter-spacing: 4px;
+
+}
+
+.vuelve1{
+    transform: translateX(0);
+    transition: 2s;
+}
+.negro1{
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+}
+
+/*SEGUNDO CONTAINER*/
+
+.containerEducacion{
+    width: 33%;
+    height: 100%;
+    transition: 2s;
+    display: flex;
+    background-image: url(/portafolio_personal/public/img/journal-2850091_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 4px solid black;
+}
+
+.titleEducacion{
+    font-size: 100px;
+    transform: rotateZ(-90deg);
+    align-self:center;
+    transition: .4s;
+}
+
+.overlayHijo2{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #00000083;
+    transition: 2s;
+    padding: 50px;
+    transform: translateY(-1000vh);
+}
+
+
+.containerEducacion:hover{
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+}
+
+.vuelve2{
+    transform: translateX(0);
+    transition: 2s;
+}
+
+.negro2{
+    /* background-image: url(/);
+    background-color: rgb(0, 0, 0); */
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafoEducativo{
+    font-size: 23px;
+    color: white;
+    transition: 2s;
+    line-height: 50px;
+    letter-spacing: 4px;
+}
+
+/*TERCER CONTAINER*/
+
+.containerRedesSociales{
+    width: 33%;
+    height: 100%;
+    transition: 1s;
+    background-image: url(/portafolio_personal/public/img/phone-292994_1920.jpg);
+    background-position: center;
+    background-size:cover;
+    border: 4px solid black;
+
+}
+
+.containerRedesSociales:hover{
+    width: 100%;
+    height: 100%;
+    transition: 3s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.titleRedes{
+    font-size: 100px;
+    transform: rotateZ(-90deg);
+    margin-top: 150px;
+    transition: .4s;
+}
+
+.peque{
+    text-decoration: underline;
+    font-size: 60px;
+    transform: rotateZ(0deg);
+    justify-self: center;
+    color: white;
+    transition: 2s;
+    margin-top: 30px;
+
+}
+
+
+.overlayHijo3{
+    width: 100%;
+    height: 80%;
+    opacity: 0;
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(3,150px);
+    transition: 2s;
+    transform: translateX(50vw);
+    gap: 10px;
+    color: white;
+}
+
+.containerRedSocial1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.redSocial1{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.facebook{
+    transition: 2s;
+    font-size: 35px;
+    font-family: sans-serif;
+    opacity: 0;
+    padding: 50px 10px;
+
+}
+
+.facebook:hover{
+    opacity: 1;
+    transition: 2s;
+}
+
+.containerRedSocial2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+   display: flex;
+   align-items: center;
+   border-top: 1px solid white;
+   padding: 20px;
+}
+
+.redSocial2{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.instagram{
+    transition: 2s;
+    font-size: 35px;
+    font-family: sans-serif;
+    opacity: 0;
+    padding: 50px 10px;
+
+}
+
+.instagram:hover{
+    opacity: 1;
+    transition: 2s;
+}
+
+
+.containerRedSocial3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: flex;
+   align-items: center;
+   border-top: 1px solid white;
+   padding: 20px;
+}
+
+.redSocial3{
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.redSocial3:hover{
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.link{
+    transition: 2s;
+    font-size: 35px;
+    font-family: sans-serif;
+    opacity: 0;
+    padding: 50px 10px;
+}
+
+.link:hover{
+    opacity: 1;
+    transition: 2s;
+}
+
+
+.overlayHijo3:hover{
+    opacity: 1;
+    color: white;
+}
+
+.vuelve3{
+    transform: translateX(0);
+    transition: 2s;
+}
+
+.negro3{
+    background-image: url(/);
+    background-color: rgb(0, 0, 0);
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CONTAINER 4*/
+
+.container4{
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #3e3e3e35;
+    transition: .2s;
+}
+
+.container4:hover{
+    transition: .6s;
+
+}
+
+.ampliar{
+    height: 110vh;
+    transition: .2s;
+    border-radius: 30px;
+    border: 4px solid white;
+
+}
+
+.containerTodosProyectos{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.parrafoProyectos{
+    background-color: rgba(128, 128, 128, 0.16);
+    border-radius: 15px;
+    padding: 20px;
+    width:100%;
+    align-self: center;
+    transform: translateX(300px);
+    transition: 1s;
+}
+
+.achicar{
+    display: block;
+    align-items: none;
+}
+
+.normal{
+    transform: translateX(0);
+    text-decoration:line-through;
+}
+
+.desaparece{
+    display: none;
+}
+
+
+.containerProyecto1{
+    width: 100%;
+    height:90%;
+    display: grid;
+    grid-template-columns: repeat(6, 16%);
+    grid-template-rows: repeat(2,50%);
+    transform: translateX(350vw);
+    transition: 2s;
+}
+
+.hijoGrid1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-image: url(/portafolio_personal/public/img/2024-04-30\ \(51\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.hijoGrid2{
+    grid-column: 3/5;
+    grid-row: 1/3;
+    background-image: url(/portafolio_personal/public/img/2024-04-30\ \(50\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hijoGrid3{
+    grid-column: 5/7;
+    grid-row: 1/3;
+    background-image: url(/portafolio_personal/public/img/2024-04-30\ \(49\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.instagram{
+    transform: translateX(0);
+    transition: 1s;
+}
+
+/*SECCION DE MIS HOBBYS FAVORITOS*/
+
+
+.container5{
+    width: 100%;
+    height: 1vh;
+    transition: .8s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hobbys{
+    width: 60%;
+    height: 15vh;
+    border: none;
+    font-family: sans-serif;
+    font-size: 300%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.057);
+    border-radius: 200px;
+    transition: .8s;
+
+}
+
+.hobbysAmpliado{
+    width: 100%;
+    border-radius: 0;
+    transition: .8s;
+
+}
+
+.ampliar2{
+    height: 90vh;
+    transition: .8s;
+}
+
+
+.containerFotoHobby{
+    width: 100%;
+    height: 120%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(2,40%);
+    transform: translateX(-250vw);
+}
+
+.vuelvaHobby{
+    transform: translateX(0);
+}
+
+.containerFutbol{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+   
+}
+
+.containerFutbolInterno{
+    width: 55%;
+    height: 100%;
+    background-image: url(/portafolio_personal/public/img/ball-4309996_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition: .6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.containerFutbolInterno:hover{
+    transition: .6s;
+    border-radius: 2%;
+
+}
+
+
+.containerBicicleta{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.containerBicicletaInterno{
+    width: 55%;
+    height: 100%;
+    background-image: url(/portafolio_personal/public/img/bike-1658214_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    transition: .6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.containerBicicletaInterno:hover{
+    transition: .6s;
+    border-radius: 2%;
+}
+
+.ampliarHobbys{
+    width: 100%;
+    border-radius: 0;
+    transition: .6s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parrafoHobbyFutbol{
+    visibility: hidden;
+    transition: .6s;
+}
+
+.parrafoHobbyBicicleta{
+    visibility: hidden;
+    transition: .6s;
+}
+
+.verHobby{
+    visibility: initial;
+    border: 2px solid white;
+    transition: .6s;
+    font-size: 40px;
+    background-color: rgba(1, 100, 1, 0.349);
+    padding: 30px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.verHobby2{
+    visibility: initial;
+    border: 2px solid rgb(0, 0, 0);
+    transition: .6s;
+    font-size: 40px;
+    background-color: rgba(255, 208, 1, 0.2);
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.balon{
+    width: 60px;
+    font-size: 10px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    visibility: hidden;
+    color: black;
+}
+
+.ri-football-fill{
+    font-size: 800%;
+}
+
+.bicicleta{
+    visibility: hidden;
+}
+
+
+.ri-bike-fill{
+    font-size: 180%;
+}
+.giratorio{
+    visibility: initial;
+
+    animation-name: girar;
+    animation-duration: 4s;
+    animation-iteration-count:1;
+    animation-timing-function: linear;
+    animation-fill-mode:both;
+}
+
+
+.giratorio2{
+
+    visibility: initial;
+    animation-name: andar;
+    animation-duration: 7s;
+    animation-iteration-count:1;
+    animation-timing-function: linear;
+    animation-fill-mode:both;
+}
+@keyframes girar{
+    from{
+        transform: rotateZ(0);
+        margin-left: 2%;
+    }
+    to{
+        transform: rotateZ(600deg);
+        margin-left: 80%;
+    }
+}
+
+@keyframes andar{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform:translateX(90%)
+    }
+}
+
+
+.containerSue{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    z-index: 10;
+}
+
+.container10{
+    margin: auto;
+    width: 90%;
+    height: 80vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(6,16%);
+    grid-template-rows: repeat(2,50%);
+    gap: 20px;
+}
+
+.grid:hover{
+    border: 12px solid rgba(242, 0, 0, 0.762);
+}
+
+.grid:first-child{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-image: url(/portafolio_personal/public/img/house-4516175_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid:first-child:hover{
+   border: 10px solid rgba(255, 255, 255, 0.502);
+}
+
+
+.grid:nth-child(2){
+    grid-column: 4/7;
+    grid-row: 1/2;
+    background-image: url(/portafolio_personal/public/img/keyboard-4759499_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grid:nth-child(2):hover{
+    border: 10px solid rgba(27, 32, 189, 0.262);
+}
+
+
+.grid:nth-child(3){
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-image: url(/portafolio_personal/public/img/barber-1453064_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.grid:nth-child(4){
+    grid-column: 4/8;
+    grid-row: 2/3;
+    background-image: url(/portafolio_personal/public/img/code-3637299_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid:nth-child(3):hover{
+    border: 10px solid rgba(229, 145, 35, 0.627);
+}
+
+.overlay5{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay5:hover{
+    background-color: #00000098;
+    opacity: 1;
+}
+
+.house{
+    font-size: 30px;
+    color: white;
+}
+
+
+.container11{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(222, 184, 135, 0.944);
+    display: flex;
+}
+
+.containerPie:first-child{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    font-family: sans-serif;
+    padding: 5%  10%;
+}
+
+.parrafoPie{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.containerPie:nth-child(2){
+    width: 25%;
+    height: 100%;
+    padding: 5%  2%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.containerPie:nth-child(3){
+    width: 25%;
+    height: 100%;
+    font-family: sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 5%  2%;
+
+}
